@@ -33,15 +33,16 @@ li {
 }
 
 #sign-in {
-    background-color: #4683ea;  
+    background-color: rgb(66, 133, 244);  
     color: white;
     font-weight: bold;
     padding: 5px 12px 5px 12px;
-    border-radius: 2px 2px;
+    border-radius: 2px;
+    border-color: rgb(66, 133, 244);
 }
 
 #Footer {
-    display: block;
+    display: flex;
     background-color: rgb(190, 190, 190);
     color: #5f6368;
     bottom: 0px;
@@ -61,25 +62,44 @@ li {
 }
 
 #central {
+    position: relative;
+    top: 150px;
     display: flex;
+    flex-direction: column;
+    align-items:center;
 }
 
 #logo {
+    position: relative;
     height: 92px;
     width: 272px;
+    padding-bottom: 20px;
 }
 
-#search-button {
-    background-color: rgb(242, 242, 242);
+#search-bar {
+    position: relative;
+    padding-bottom: 20px;
+}
+
+input[type=search] {
+    box-sizing: border-box;
+    width: 550px;
+    border-radius: 25px;
+    border-color: rgb(223, 225, 229);
+}
+
+#search-buttons {
+    position: relative;
     border-radius: 4px 4px;
 }
 
-.ph-icon {
-    position: absolute;
-    height: 10px;
-    width: 10px;
-    background-color: grey;
-    color: grey;
+.search-button {
+    background-color: rgb(242, 242, 242);
+    box-sizing: border-box;
+    border-radius: 4px 4px;
+    border-color: rgb(223, 225, 229);
+    padding: 10px;
+    margin-right: 10px;
 }
 
 .flex-row {

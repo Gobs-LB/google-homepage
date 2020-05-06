@@ -7,11 +7,6 @@
     <link href="style.css" rel="stylesheet">
 </head>
 
-<!--Most icons are part of a single background image
-repeatedly used that only shows a part of it.
-Not learning those shenanigans, either cut it or dont use any/ph
--->
-
 <body>
 
     <div id="header"> <!--Header-->    
@@ -33,27 +28,24 @@ Not learning those shenanigans, either cut it or dont use any/ph
     </div>
 
     <div id="central"> <!--Central Items-->
-        <img id="logo"
-        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-        alt="Google Logo">
+        <div id="logo">
+            <img
+            src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt="Google Logo">
+        </div>
 
-        <form action="" method="get">
-            <div> <!--Search Bar-->
-                <img class="ph-icon" src="" alt=""> <!--Magnifying Glass-->
-                
+       <div id="search-bar"> <!--Search Bar--> 
+            <form action="" method="get">
                 <input type="search" name="Requested-Search"
                 required>
-
-                <a class="ph-icon" href=""> <!--Voice Button-->
-                    <img src="" alt=""> <!--Microphone-->
-                </a>
-            </div>
-
-            <div>
-                <input class="search-button" type="submit" value="Google Search">
-                <input class="search-button" type="submit" value="I'm Feeling Lucky">
-            </div>
-        </form>  
+            </form>    
+        </div>
+ 
+        <div id="search-buttons">
+            <input class="search-button" type="submit" value="Google Search">
+            <input class="search-button" type="submit" value="I'm Feeling Lucky">
+        </div>
+         
     </div>
 
 
