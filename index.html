@@ -14,60 +14,60 @@ Not learning those shenanigans, either cut it or dont use any/ph
 
 <body>
 
-    <div> <!--Header-->    
-        <div> <!--Right Header-->
-            <ul>
+    <div id="header"> <!--Header-->    
+        <div id="HL"> <!--Left Header-->
+            <ul class="flex-row">
                 <li><a href="">About</a></li>
                 <li><a href="">Store</a></li>
             </ul>
         </div>
       
-        <div> <!--Left Header-->
-            <ul>
+        <div id="HR"> <!--Right Header-->
+            <ul class="flex-row">
                 <li><a href="">Gmail</a></li>
                 <li><a href="">Images</a></li>
                 <li><a href="">Square</a></li> <!--3x3 Square Icon-->
-                <li><a href="">Sign in</a></li>
+                <li><a id="sign-in" href="">Sign in</a></li>
             </ul>
         </div>
     </div>
 
-    <div> <!--Central Items-->
-        <img 
+    <div id="central"> <!--Central Items-->
+        <img id="logo"
         src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
         alt="Google Logo">
 
         <form action="" method="get">
             <div> <!--Search Bar-->
-                <img src="" alt=""> <!--Magnifying Glass-->
+                <img class="ph-icon" src="" alt=""> <!--Magnifying Glass-->
                 
                 <input type="search" name="Requested-Search"
                 required>
 
-                <a href=""> <!--Voice Button-->
+                <a class="ph-icon" href=""> <!--Voice Button-->
                     <img src="" alt=""> <!--Microphone-->
                 </a>
             </div>
 
             <div>
-                <input type="submit" value="Google Search">
-                <input type="submit" value="I'm Feeling Lucky">
+                <input class="search-button" type="submit" value="Google Search">
+                <input class="search-button" type="submit" value="I'm Feeling Lucky">
             </div>
         </form>  
     </div>
 
 
-    <div> <!--Footer-->
-        <div> <!--Right Footer-->
-            <ul>
+    <div id="Footer"> <!--Footer-->
+        <div id="FL"> <!--Left Footer-->
+            <ul class="flex-row">
                 <li><a href="">Advertising</a></li>
                 <li><a href="">Business</a></li>
                 <li><a href="">How Search works</a></li>
             </ul>
         </div>
 
-        <div> <!--Left Footer-->
-            <ul>
+        <div id="FR"> <!--Right Footer-->
+            <ul class="flex-row">
                 <li><a href="">Privacy</a></li>
                 <li><a href="">Terms</a></li>
                 <li><a href="">Settings</a></li>
